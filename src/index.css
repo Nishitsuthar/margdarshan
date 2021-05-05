@@ -1,13 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela&display=swap");
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.brand_name {
+  color: #61b5e5 !important;
+  font-family: "Vollkorn", serif;
+  font-size: 28px;
+}
+
+.navcolor {
+  background-color: #f4f4f4;
+}
+
+.heading {
+  color: #61b5e5;
+  font-size: 60px;
+  font-family: "Vollkorn", serif;
+}
+.sub-heading {
+  color: #61b5e5;
+  font-size: 23px;
+  font-family: "Varela", sans-serif;
+}
+
+#header .btn-get-started {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3998db;
+  border: 2px solid #3998db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover {
+  background-color: #3998db;
+  color: #fff;
 }
